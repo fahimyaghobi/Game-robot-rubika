@@ -14,9 +14,9 @@ from typing import Dict, List, Optional
 # ایجاد پوشه پروفایل اگر وجود ندارد
 if not os.path.exists("profile_pics"):
     os.makedirs("profile_pics")
-
-bot = Robot(token="CDIAF0IVKWNRKLRLVOHBSXGKLUKYPXDUNPZZQXXSOENGBYEINCTJYGRSHHECUVSD")
-
+#توکن را اینجا وارد کنید
+bot = Robot(token="BBIJJ0BXNPMYLVPYUKVHDGDFVQAGQJMISSQBKIKFGIUNDJYJOQJFVGTRRCAHDUOI")
+#رمز پنل مدیریت اینجا وارد کنید
 ADMIN_PASSWORD = "fahimjan"
 
 async def set_com():
